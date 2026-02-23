@@ -188,7 +188,6 @@
         .btn-portal:hover {
             color: #000;
             background: var(--primary);
-            box-shadow: 0 0 30px var(--primary);
         }
 
         .btn-bz {
@@ -318,6 +317,18 @@
 
             .hero-section .d-flex {
                 justify-content: center;
+                gap: 0.5rem !important;
+            }
+
+            .hero-section .btn-portal {
+                padding: 8px 15px !important;
+                font-size: 0.7rem !important;
+                letter-spacing: 1px !important;
+            }
+
+            .curr-btn {
+                padding: 5px 8px !important;
+                font-size: 0.6rem !important;
             }
         }
     </style>
@@ -347,7 +358,6 @@
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a class="nav-link active" href="#home">/root</a></li>
                     <li class="nav-item"><a class="nav-link" href="#about">/about</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#resume">/resume</a></li>
                     <li class="nav-item"><a class="nav-link" href="#services">/services</a></li>
                     <li class="nav-item"><a class="nav-link" href="#skills">/skills</a></li>
                     <li class="nav-item"><a class="nav-link" href="#projects">/projects</a></li>
@@ -424,69 +434,6 @@
         </div>
     </section>
 
-    <!-- Resume Section -->
-    <section id="resume" class="py-5">
-        <div class="container py-5 mt-5">
-            <h2 class="section-title text-center">RESUME <span>HISTORY</span></h2>
-
-            <div class="row g-5 mt-4">
-                <!-- Experience -->
-                <div class="col-lg-6" data-aos="fade-right">
-                    <h4 class="mb-4 text-primary" style="font-family: 'Orbitron';"><i
-                            class="fas fa-briefcase me-3"></i>EXPERIENCE</h4>
-
-                    <div class="glass-card p-4 mb-4 position-relative overflow-hidden">
-                        <div class="mb-2 d-flex justify-content-between align-items-center">
-                            <h5 class="text-white mb-0">Software Developer</h5>
-                            <span class="badge bg-primary-subtle text-primary border border-primary-subtle">2025 -
-                                PRESENT</span>
-                        </div>
-                        <div class="text-primary small mb-3">Lanari Tech.</div>
-                        <p class="small mb-0 opacity-75">Developing responsive web applications enhancing client user
-                            experience and engagement. Designing scalable backend APIs improving data flow and system
-                            reliability.</p>
-                    </div>
-
-                    <div class="glass-card p-4 position-relative overflow-hidden">
-                        <div class="mb-2 d-flex justify-content-between align-items-center">
-                            <h5 class="text-white mb-0">CEO & Lead Software Engineer</h5>
-                            <span class="badge bg-primary-subtle text-primary border border-primary-subtle">2024 -
-                                PRESENT</span>
-                        </div>
-                        <div class="text-primary small mb-3">ItaraGo.</div>
-                        <p class="small mb-0 opacity-75">Led development of scalable digital platforms increasing user
-                            adoption and retention. Designed robust system architectures and managed product strategy.
-                        </p>
-                    </div>
-                </div>
-
-                <!-- Education -->
-                <div class="col-lg-6" data-aos="fade-left">
-                    <h4 class="mb-4 text-secondary" style="font-family: 'Orbitron';"><i
-                            class="fas fa-graduation-cap me-3"></i>EDUCATION</h4>
-
-                    <div class="glass-card p-4 mb-4 position-relative overflow-hidden">
-                        <div class="mb-2 d-flex justify-content-between align-items-center">
-                            <h5 class="text-white mb-0">Diploma in Software Development</h5>
-                            <span class="badge bg-secondary-subtle text-secondary border border-secondary-subtle">2022 -
-                                2025</span>
-                        </div>
-                        <div class="text-secondary small mb-3">Professional Certification</div>
-                        <p class="small mb-0 opacity-75">Comprehensive training in modern software engineering
-                            principles, full-stack development, and system architecture.</p>
-                    </div>
-
-                    <!-- Download Section -->
-                    <div class="mt-5 text-center text-lg-start">
-                        <a href="yakin resume.pdf" download class="btn btn-portal"
-                            style="border-color: var(--secondary); color: var(--secondary);">
-                            <i class="fas fa-download me-2"></i> DOWNLOAD_CV.PDF
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
 
     <!-- Services Section -->
     <section id="services" class="py-5">
@@ -913,6 +860,12 @@
                 <a href="https://wa.me/250795987348" target="_blank" class="social-link"><i
                         class="fab fa-whatsapp"></i></a>
                 <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+            </div>
+            <div class="mb-4">
+                <a href="yakin resume.pdf" download class="text-primary text-decoration-none small"
+                    style="font-family: 'Orbitron'; letter-spacing: 2px;">
+                    > INITIALIZE_DOWNLOAD: [MY_RESUME]
+                </a>
             </div>
             <p class="  small mb-0">© 2025 YAKIN NSANZUMUHIRE | MISSION_V3.1.2_STABLE</p>
             <p class="text-primary x-small mt-2" style="font-size: 0.6rem; letter-spacing: 5px;">ARCHITECTURE OF THE
