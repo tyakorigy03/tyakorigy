@@ -45,6 +45,8 @@
             --glow: 0 0 15px var(--primary);
         }
 
+       
+
         /* --- PRELOADER --- */
         #preloader {
             position: fixed;
@@ -286,6 +288,38 @@
             box-shadow: 0 0 20px var(--primary);
             transform: translateY(-5px);
         }
+
+        /* Mobile Scaling */
+        @media (max-width: 768px) {
+            .hero-section {
+                padding-top: 60px;
+                text-align: center;
+            }
+
+            .hero-section h1 {
+                font-size: 2.2rem !important;
+                letter-spacing: 2px !important;
+            }
+
+            .hero-section p.lead {
+                font-size: 0.95rem !important;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            .hero-section h5 {
+                font-size: 0.8rem !important;
+            }
+
+            .section-title {
+                font-size: 1.8rem !important;
+                letter-spacing: 3px !important;
+            }
+
+            .hero-section .d-flex {
+                justify-content: center;
+            }
+        }
     </style>
 </head>
 
@@ -331,7 +365,7 @@
                     <h1 class="display-1 fw-bold mb-4 font-outfit" style="font-family: 'Orbitron', sans-serif;">
                         Yakin <span class="text-secondary text-gradient">Nsanzumuhire</span>
                     </h1>
-                    <p class="lead mb-5 text-muted" style="max-width: 600px;">
+                    <p class="lead mb-5 " style="max-width: 600px;">
                         Full-Stack Engineer specialized in developing high-performance <span
                             class="text-white">AI-integrated</span> architectures and futuristic digital experiences.
                     </p>
@@ -369,14 +403,14 @@
                         <div class="col-sm-6">
                             <div class="glass-card p-4 h-100">
                                 <h5 class="text-primary mb-2">/Vision</h5>
-                                <p class="small text-muted mb-0">Harnessing Quantum-inspired algorithms for next-gen
+                                <p class="small   mb-0">Harnessing Quantum-inspired algorithms for next-gen
                                     scalability.</p>
                             </div>
                         </div>
                         <div class="col-sm-6">
                             <div class="glass-card p-4 h-100">
                                 <h5 class="text-secondary mb-2">/Mission</h5>
-                                <p class="small text-muted mb-0">Bridging the gap between human intuition and artificial
+                                <p class="small   mb-0">Bridging the gap between human intuition and artificial
                                     intelligence.</p>
                             </div>
                         </div>
@@ -400,7 +434,7 @@
                             <i class="fas fa-code fa-5x"></i>
                         </div>
                         <h4>WEB_DEV_V3</h4>
-                        <p class="small text-muted mb-4 flex-grow-1">Crafting high-end, responsive web platforms using
+                        <p class="small   mb-4 flex-grow-1">Crafting high-end, responsive web platforms using
                             React and modern architectures for maximum speed and SEO dominance.</p>
                         <a href="#contact" class="btn-portal btn-bz w-100 text-center mt-auto">Let's Talk Business</a>
                     </div>
@@ -414,7 +448,7 @@
                             <i class="fab fa-apple fa-3x" style="color: var(--secondary);"></i>
                         </div>
                         <h4>MOBILE_APP_OS</h4>
-                        <p class="small text-muted mb-4 flex-grow-1">Building natively compiled iOS and Android
+                        <p class="small   mb-4 flex-grow-1">Building natively compiled iOS and Android
                             applications with Flutter and Swift for smooth, 60fps user experiences.</p>
                         <a href="#contact" class="btn-portal btn-bz w-100 text-center mt-auto">Let's Talk Business</a>
                     </div>
@@ -427,7 +461,7 @@
                             <i class="fas fa-microchip fa-4x animate-pulse"></i>
                         </div>
                         <h4>NEURAL_INTEGRATE</h4>
-                        <p class="small text-muted mb-4 flex-grow-1">Empowering your platforms with OpenAI API
+                        <p class="small   mb-4 flex-grow-1">Empowering your platforms with OpenAI API
                             integration, custom chatbots, and data-driven predictive models.</p>
                         <a href="#contact" class="btn-portal btn-bz w-100 text-center mt-auto">Let's Talk Business</a>
                     </div>
@@ -440,7 +474,7 @@
                             <i class="fas fa-server fa-4x"></i>
                         </div>
                         <h4>BACKEND_ARCH</h4>
-                        <p class="small text-muted mb-4 flex-grow-1">Developing secure, scalable Node.js backends and
+                        <p class="small   mb-4 flex-grow-1">Developing secure, scalable Node.js backends and
                             cloud-native databases to handle millions of requests with ease.</p>
                         <a href="#contact" class="btn-portal btn-bz w-100 text-center mt-auto">Let's Talk Business</a>
                     </div>
@@ -453,7 +487,7 @@
                             <i class="fas fa-user-gear fa-4x"></i>
                         </div>
                         <h4>IT_CONSULTANT</h4>
-                        <p class="small text-muted mb-4 flex-grow-1">Providing strategic technology roadmaps and
+                        <p class="small   mb-4 flex-grow-1">Providing strategic technology roadmaps and
                             architectural advisory to align digital assets with business goals.</p>
                         <a href="#contact" class="btn-portal btn-bz w-100 text-center mt-auto">Let's Talk Business</a>
                     </div>
@@ -466,7 +500,7 @@
                             <i class="fas fa-screwdriver-wrench fa-4x"></i>
                         </div>
                         <h4>SYSTEM_RELIABILITY</h4>
-                        <p class="small text-muted mb-4 flex-grow-1">Ensuring 99.9% uptime through proactive monitoring,
+                        <p class="small   mb-4 flex-grow-1">Ensuring 99.9% uptime through proactive monitoring,
                             secure patching, and continuous infrastructure optimization.</p>
                         <a href="#contact" class="btn-portal btn-bz w-100 text-center mt-auto">Let's Talk Business</a>
                     </div>
@@ -556,7 +590,7 @@
                                 style="width: 50px; height: 50px; filter: drop-shadow(0 0 5px var(--primary));">
                         </div>
                         <h4>ZERO_COMMISSION</h4>
-                        <p class="small text-muted mb-4">Rwanda's premier zero-commission marketplace for properties,
+                        <p class="small   mb-4">Rwanda's premier zero-commission marketplace for properties,
                             cars, and goods. Direct deals with no hidden fees.</p>
                         <div class="mb-5">
                             <span class="tech-tag">React</span>
@@ -580,7 +614,7 @@
                                 style="width: 50px; height: 50px; filter: drop-shadow(0 0 5px var(--primary));">
                         </div>
                         <h4>MIHETO_FILMS</h4>
-                        <p class="small text-muted mb-4">A high-end streaming platform for Rwandan cinema and trending
+                        <p class="small   mb-4">A high-end streaming platform for Rwandan cinema and trending
                             Agasobanuye movies, accessible worldwide.</p>
                         <div class="mb-5">
                             <span class="tech-tag">Streaming</span>
@@ -604,7 +638,7 @@
                                 style="width: 50px; height: 50px; filter: drop-shadow(0 0 5px var(--primary));">
                         </div>
                         <h4>ITARA_GO</h4>
-                        <p class="small text-muted mb-4">Interactive learning platform for Rwandan traffic rules and
+                        <p class="small   mb-4">Interactive learning platform for Rwandan traffic rules and
                             provisional license exam preparation with live simulations.</p>
                         <div class="mb-5">
                             <span class="tech-tag">EdTech</span>
@@ -628,7 +662,7 @@
                                 style="width: 50px; height: 50px; filter: drop-shadow(0 0 5px var(--primary));">
                         </div>
                         <h4>EDU_HUB_250</h4>
-                        <p class="small text-muted mb-4">A comprehensive digital educational hub designed to streamline
+                        <p class="small   mb-4">A comprehensive digital educational hub designed to streamline
                             student resources and learning in Rwanda.</p>
                         <div class="mb-5">
                             <span class="tech-tag">LMS</span>
@@ -652,7 +686,7 @@
                                 style="width: 50px; height: 50px; filter: drop-shadow(0 0 5px var(--primary));">
                         </div>
                         <h4>BLESSING_COM</h4>
-                        <p class="small text-muted mb-4">A comprehensive NDIS support and compliance management platform
+                        <p class="small   mb-4">A comprehensive NDIS support and compliance management platform
                             ensuring quality care and staff accountability.</p>
                         <div class="mb-5">
                             <span class="tech-tag">HealthTech</span>
@@ -676,7 +710,7 @@
                                 style="width: 50px; height: 50px; filter: drop-shadow(0 0 5px var(--primary));">
                         </div>
                         <h4>IOPD_ORG</h4>
-                        <p class="small text-muted mb-4">Official platform for Intagamburuzwa Organization, empowering
+                        <p class="small   mb-4">Official platform for Intagamburuzwa Organization, empowering
                             children with disabilities through education and advocacy.</p>
                         <div class="mb-5">
                             <span class="tech-tag">NGO</span>
@@ -707,17 +741,17 @@
                                 <h4 class="text-primary mb-4 font-outfit">AVAILABLE_CHANNELS</h4>
                                 <ul class="list-unstyled space-y-4">
                                     <li class="mb-4">
-                                        <div class="text-muted small uppercase font-bold mb-1">PHONE_CONTACT</div>
+                                        <div class="  small uppercase font-bold mb-1">PHONE_CONTACT</div>
                                         <a href="tel:+250795987348" class="text-white text-decoration-none">+250 795 987
                                             348</a>
                                     </li>
                                     <li class="mb-4">
-                                        <div class="text-muted small uppercase font-bold mb-1">EMAIL_ADDRESS</div>
+                                        <div class="  small uppercase font-bold mb-1">EMAIL_ADDRESS</div>
                                         <a href="mailto:tyakorigy03@gmail.com"
                                             class="text-white text-decoration-none">tyakorigy03@gmail.com</a>
                                     </li>
                                     <li>
-                                        <div class="text-muted small uppercase font-bold mb-1">BASE_LOCATION</div>
+                                        <div class="  small uppercase font-bold mb-1">BASE_LOCATION</div>
                                         <div class="text-white">Kigali, Rwanda | Zone_01</div>
                                     </li>
                                 </ul>
@@ -757,7 +791,7 @@
                         class="fab fa-whatsapp"></i></a>
                 <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
             </div>
-            <p class="text-muted small mb-0">© 2025 YAKIN NSANZUMUHIRE | MISSION_V3.1.2_STABLE</p>
+            <p class="  small mb-0">© 2025 YAKIN NSANZUMUHIRE | MISSION_V3.1.2_STABLE</p>
             <p class="text-primary x-small mt-2" style="font-size: 0.6rem; letter-spacing: 5px;">ARCHITECTURE OF THE
                 FUTURE</p>
         </div>
